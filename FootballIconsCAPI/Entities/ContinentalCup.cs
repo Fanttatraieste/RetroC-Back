@@ -12,9 +12,9 @@ namespace FootballIconsCAPI.Entities
         [Required]
         public int ContinentalCupID { get; set; }
 
-        public string Winner { get; set; }
-        public string RunnerUp { get; set; }
-        public string ThirdPlace { get; set; }
+        public Nation Winner { get; set; }
+        public Nation RunnerUp { get; set; }
+        public Nation ThirdPlace { get; set; }
         public string Place { get; set; }
         public int Year { get; set; }
         public string CupName {  get; set; }

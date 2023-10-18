@@ -23,5 +23,14 @@ namespace FootballIconsCAPI.Entities
         [Required]
         [MaxLength(20)]
         public string Confederation {  get; set; }
+
+        public ICollection<WorldCup>? WorldCups {  get; set; }
+        public ICollection<WorldCup>? WorldCupsRunnerUps {  get; set; }
+        public ICollection<WorldCup>? WorldCupThirdPlace { get; set; }
+
+        public ICollection<ContinentalCup>? ContinentalCups { get; set; }
+        public ICollection<ContinentalCup>? ContinentalCupsRunnerUps { get; set; }
+        public ICollection<ContinentalCup>? ContinentalCupsThirdPlace {  get; set; }
+
     }
 }

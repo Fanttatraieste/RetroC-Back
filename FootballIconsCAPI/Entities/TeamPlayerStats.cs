@@ -10,7 +10,7 @@ namespace FootballIconsCAPI.Entities
     {
         public TeamPlayerStats() { }
         [Required]
-        public int IconID { get; set; }
+        public Icon Icon { get; set; }
 
         public Team Team { get; set; }
 
@@ -22,20 +22,20 @@ namespace FootballIconsCAPI.Entities
 
         public int GoalsScored { get; set; }
         
-        public ICollection<DomesticLeague>? DomesticLeagues { get;  set; }
-        public ICollection<DomesticCup>? DomesticCups { get; set; }
-        public ICollection<DomesticSuperCup>? DomesticSuperCups { get; set; }
+        //public ICollection<DomesticLeague>? DomesticLeagues { get;  set; }
+        //public ICollection<DomesticCup>? DomesticCups { get; set; }
+        //public ICollection<DomesticSuperCup>? DomesticSuperCups { get; set; }
 
-        public ICollection<ChampionsCup>? ChampionsCups { get; set; }
-        public ICollection<ChampionsCup>? ChampionsCupRunnerUps { get; set; }
-        public ICollection<UEFACup>? UEFACups { get; set; }
-        public ICollection<UEFACup>? UEFACupRunnerUps { get; set; }
+        //public ICollection<ChampionsCup>? ChampionsCups { get; set; }
+        //public ICollection<ChampionsCup>? ChampionsCupRunnerUps { get; set; }
+        //public ICollection<UEFACup>? UEFACups { get; set; }
+        //public ICollection<UEFACup>? UEFACupRunnerUps { get; set; }
 
-        public ICollection<WinnersCup>?  WinnersCups { get; set;}
+        //public ICollection<WinnersCup>?  WinnersCups { get; set;}
 
-        public ICollection<WinnersCup>? WinnersCupRunnersUp { get; set; }
+        //public ICollection<WinnersCup>? WinnersCupRunnersUp { get; set; }
 
-        public ICollection<UEFASuperCup>? UEFASuperCups { get;set; }
+        //public ICollection<UEFASuperCup>? UEFASuperCups { get;set; }
 
     }
 }
