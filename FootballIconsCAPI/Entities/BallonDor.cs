@@ -43,6 +43,6 @@ namespace FootballIconsCAPI.Entities
 
        
         public int TenthPlace { get; set; }
-        public ICollection<int> Nominations { get; set; }
+        public ICollection<Nominations> Nominations { get; set; }
     }
 }

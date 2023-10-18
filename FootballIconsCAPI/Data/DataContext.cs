@@ -20,7 +20,7 @@ namespace FootballIconsCAPI.Data
             optionsBuilder.UseSqlServer("Server=localhost; Database=IconsDB; Trusted_Connection=true; TrustServerCertificate=true;");
         }
 
-        //public DbSet<BallonDor> BallonDors { get; set; }
+        public DbSet<BallonDor> BallonDors { get; set; }
         public DbSet<ChampionsCup> ChampionsCups { get; set; }
         public DbSet<ContinentalCup> ContinentalCups { get;set; }
         public DbSet<DomesticCup> DomesticCups { get;  set; }
