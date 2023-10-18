@@ -12,8 +12,8 @@ namespace FootballIconsCAPI.Entities
         [Required]
         public int UEFACupID { get; set; }
 
-        public Team Winner { get; set; }
-        public Team RunnerUp { get; set; }
+        public int Winner { get; set; }
+        public int RunnerUp { get; set; }
         public string Place { get; set; }
         public int Year { get; set; }
     }

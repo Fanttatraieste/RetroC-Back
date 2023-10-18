@@ -14,35 +14,35 @@ namespace FootballIconsCAPI.Entities
 
         public int Year { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon Winner { get; set; }
+  
+        public int Winner { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon RunnerUp {  get; set; }
+     
+        public int RunnerUp {  get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon ThirdPlace { get; set; }
+     
+        public int ThirdPlace { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon FourthPlace { get; set; }
+      
+        public int FourthPlace { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon Fifthlace { get; set; }
+     
+        public int Fifthlace { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon SixthPlace { get; set; }
+    
+        public int SixthPlace { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon SeventhPlace { get; set; }
+     
+        public int SeventhPlace { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon EigthPlace { get; set; }
+       
+        public int EigthPlace { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon NinethPlace { get; set; }
+      
+        public int NinethPlace { get; set; }
 
-        [ForeignKey(nameof(Icon))]
-        public Icon TenthPlace { get; set; }
-        public ICollection<Icon> Nominations { get; set; }
+       
+        public int TenthPlace { get; set; }
+        public ICollection<int> Nominations { get; set; }
     }
 }

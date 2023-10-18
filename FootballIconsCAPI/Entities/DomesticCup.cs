@@ -13,7 +13,7 @@ namespace FootballIconsCAPI.Entities
         [Required]
         public int DomesticCupID { get; set; }
 
-        public Team Winner { get; set; }
+        public int Winner { get; set; }
         public string Country { get; set; }
         public int Year { get; set; }
     }

@@ -12,7 +12,7 @@ namespace FootballIconsCAPI.Entities
         [Required]
         public int UEFASuperCupID { get; set; }
 
-        public Team Winner { get; set; }
+        public int Winner { get; set; }
         public string Place { get; set; }
         public int Year { get; set; }
     }

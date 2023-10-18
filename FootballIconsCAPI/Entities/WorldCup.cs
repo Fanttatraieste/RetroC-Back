@@ -12,9 +12,9 @@ namespace FootballIconsCAPI.Entities
         [Required]
         public int WorldCupID { get; set; }
 
-        public Nation Winner { get; set; }
-        public Nation RunnerUp {  get; set; }
-        public Nation ThirdPlace { get; set; }
+        public int Winner { get; set; }
+        public int RunnerUp {  get; set; }
+        public int ThirdPlace { get; set; }
         public string Place {  get; set; }
         public int Year { get; set; }
     }

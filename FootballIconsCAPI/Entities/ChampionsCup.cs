@@ -9,11 +9,19 @@ namespace FootballIconsCAPI.Entities
     public class ChampionsCup
     {
         public ChampionsCup() { }
+
         [Required]
         public int ChampionsCupID { get; set; }
 
-        public Team Winner { get; set; }
-        public Team RunnerUp { get; set; }
+        public int Winner { get; set; }
+
+        //[ForeignKey("Winner")]
+        //public Team WinnerTeam {  get; set; }
+
+        public int RunnerUp { get; set; }
+
+        //[ForeignKey("RunnerUp")]
+        //public Team RunnerUpTeam { get; set; }
         public string Place { get; set; }
         public int Year { get; set; }
     }
