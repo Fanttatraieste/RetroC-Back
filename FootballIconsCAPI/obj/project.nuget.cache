@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "4wcwCSre6XKuFS3Iwo/reeN1lodugJa/UnaZ6wklURIb9clw4WBtG/PdrGXDYzH/8+vu0zToLzHTxIRWGAeVgQ==",
+  "dgSpecHash": "i06/Av5ZmzYWOKWOnz6B+OnrQiPqnxfZz720DDIrertOH20hd5+T7Z0xSYab/Gvk0EON+9eLP2lLWMDcnonCnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\vlad.uta\\Desktop\\stuff\\projects\\internship\\c harp\\FootballIconsCAPI\\FootballIconsCAPI\\FootballIconsCAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vlad.uta\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\vlad.uta\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\vlad.uta\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\vlad.uta\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\vlad.uta\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\vlad.uta\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

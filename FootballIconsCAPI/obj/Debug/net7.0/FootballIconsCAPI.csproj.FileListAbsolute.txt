@@ -74,3 +74,4 @@ C:\Users\vlad.uta\Desktop\stuff\projects\internship\c harp\FootballIconsCAPI\Foo
 C:\Users\vlad.uta\Desktop\stuff\projects\internship\c harp\FootballIconsCAPI\FootballIconsCAPI\obj\Debug\net7.0\FootballIconsCAPI.pdb
 C:\Users\vlad.uta\Desktop\stuff\projects\internship\c harp\FootballIconsCAPI\FootballIconsCAPI\obj\Debug\net7.0\FootballIconsCAPI.genruntimeconfig.cache
 C:\Users\vlad.uta\Desktop\stuff\projects\internship\c harp\FootballIconsCAPI\FootballIconsCAPI\obj\Debug\net7.0\ref\FootballIconsCAPI.dll
+C:\Users\vlad.uta\Desktop\stuff\projects\internship\c harp\FootballIconsCAPI\FootballIconsCAPI\bin\Debug\net7.0\FluentValidation.dll
