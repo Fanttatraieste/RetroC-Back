@@ -1,6 +1,7 @@
 ﻿using FluentValidation;
 using FootballIconsCAPI.Data;
 using FootballIconsCAPI.DTOs;
+using FootballIconsCAPI.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FootballIconsCAPI.Controllers
@@ -18,11 +19,19 @@ namespace FootballIconsCAPI.Controllers
             _nationValidator = nationValidator;
         }
 
+        //[HttpGet]
+        //[Route("")]
+        //public async Task<IActionResult> GetNations()
+        //{
+        //    return Ok(_dataContext.Nations);
+        //}
+
         [HttpGet]
         [Route("")]
-        public async Task<IActionResult> GetNations()
+        public async Task<IEnumerable<Nation>> GetNations()
         {
-            return Ok(_dataContext.Nations);
+            var list = _dataContext.Nations.ToArray();
+            return list;
         }
 
         [HttpPost]
